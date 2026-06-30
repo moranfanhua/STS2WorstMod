@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\AntiAnyMod\\src\\AntiAnyMod.csproj": {}
+    "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\NoMoreIrrationalPi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\AntiAnyMod\\src\\AntiAnyMod.csproj": {
+    "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\NoMoreIrrationalPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\AntiAnyMod\\src\\AntiAnyMod.csproj",
-        "projectName": "AntiAnyMod",
-        "projectPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\AntiAnyMod\\src\\AntiAnyMod.csproj",
+        "projectUniqueName": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\NoMoreIrrationalPi.csproj",
+        "projectName": "NoMoreIrrationalPi",
+        "projectPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\NoMoreIrrationalPi.csproj",
         "packagesPath": "C:\\Users\\MoXia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\AntiAnyMod\\src\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MoXia\\AppData\\Roaming\\NuGet\\NuGet.Config",

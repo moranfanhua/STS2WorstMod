@@ -93,11 +93,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\RitsulibBaselibCrash\\src\\RitsulibBaselibCrash.csproj",
-      "projectName": "RitsulibBaselibCrash",
-      "projectPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\RitsulibBaselibCrash\\src\\RitsulibBaselibCrash.csproj",
+      "projectUniqueName": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\NoMoreIrrationalPi.csproj",
+      "projectName": "NoMoreIrrationalPi",
+      "projectPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\NoMoreIrrationalPi.csproj",
       "packagesPath": "C:\\Users\\MoXia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\RitsulibBaselibCrash\\src\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\NoMoreIrrationalPi\\src\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MoXia\\AppData\\Roaming\\NuGet\\NuGet.Config",

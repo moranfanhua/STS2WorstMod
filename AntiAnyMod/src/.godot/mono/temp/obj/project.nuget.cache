@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n6JB8/97BqA=",
+  "dgSpecHash": "mti+YfwlG3w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MoXia\\Desktop\\新建文件夹\\AntiAnyMod\\src\\AntiAnyMod.csproj",
+  "projectFilePath": "C:\\Users\\MoXia\\Desktop\\1\\STS2WorseMod\\AntiAnyMod\\src\\AntiAnyMod.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MoXia\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
     "C:\\Users\\MoXia\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
