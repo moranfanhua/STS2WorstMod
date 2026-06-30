@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntiAnyMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+191af84775b6b32d89192fa3f71897dc11decb02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d07aefcf3a3d0b8bbedd9b273c0802d32f58da1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntiAnyMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntiAnyMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
