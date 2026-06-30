@@ -1,0 +1,11 @@
+{
+  "id": "AntiAnyMod",
+  "name": "AntiAnyMod",
+  "author": "moranfanhua",
+  "description": "修复了你能不玩原版的问题.Fixed an issue that enabled players to avoid playing the original version.",
+  "version": "1.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "affects_gameplay": false,
+  "dependencies": []
+}
