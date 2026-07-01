@@ -1,4 +1,4 @@
-# STS2WorstMod
+# STS2WorstMod 尖塔区迎来大变
 本项目仅供娱乐
 
 This project is for entertainment purposes only.
@@ -12,6 +12,21 @@ Fixed an issue that enabled players to avoid playing the original version.
 ~~使用方法：添加在mod合集中,惩罚不看须知的人~~
 
 ~~Usage: Add to the mod pack to penalize those who don't read the instructions.~~
+
+---
+## FortuneIsAllYouNeed 全随机尖塔
+
+修复了玩家可能可以玩到爽局的问题。
+
+Fixed an issue where players could potentially get an overly easy game.
+
+效果介绍：每次战斗胜利，手中的牌会自动变化。
+
+Effect: Your hand is automatically transformed after every battle you win.
+
+~~使用方法：和朋友开一把联机测测你们各自的手气~~
+
+~~Usage: Start a multiplayer game with a friend to test each other's luck.~~
 
 ---
 ## NoMoreIrrationalPi 加载Pi系就闪退

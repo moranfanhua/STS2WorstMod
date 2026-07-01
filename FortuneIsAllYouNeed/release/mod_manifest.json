@@ -1,0 +1,14 @@
+{
+  "id": "FortuneIsAllYouNeed",
+  "name": "FortuneIsAllYouNeed",
+  "author": "moranfanhua",
+  "description": "修复了玩家可能可以玩到爽局的问题。Fixed an issue where players could potentially get an overly easy game.",
+  "version": "v1.0.0",
+  "has_pck": false,
+  "has_dll": true,
+  "min_game_version": "0.105.0",
+  "dependencies": [
+    { "id": "STS2-RitsuLib" }
+  ],
+  "affects_gameplay": true
+}
