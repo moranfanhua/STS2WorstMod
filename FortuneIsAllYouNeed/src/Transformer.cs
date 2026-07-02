@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Factories;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
@@ -13,7 +14,7 @@ namespace FortuneIsAllYouNeed;
 public static class Transformer
 {
     private static readonly CardRarity[] TargetRarities =
-        [CardRarity.Basic, CardRarity.Common, CardRarity.Uncommon, CardRarity.Rare];
+        [CardRarity.Basic, CardRarity.Common, CardRarity.Uncommon, CardRarity.Rare, CardRarity.Ancient];
 
     public static void TransformAllCards(dynamic player, Logger logger)
     {
@@ -38,7 +39,31 @@ public static class Transformer
             if (!TargetRarities.Contains(card.Rarity))
                 continue;
 
-            var replacement = CardFactory.CreateRandomCardForTransform(card, false, rng);
+            var playerTyped = (Player)player;
+            CardModel replacement;
+
+            if (card.Rarity == CardRarity.Ancient)
+            {
+                // Ancient → Ancient: pick a random card from the pool
+                // and create the replacement directly, bypassing
+                // GetFilteredTransformationOptions whose FilterForPlayerCount
+                // may reject all Ancient candidates.
+                var ancientOptions = card.Pool
+                    .GetUnlockedCards(playerTyped.UnlockState, playerTyped.RunState.CardMultiplayerConstraint)
+                    .Where(c => c.Rarity == CardRarity.Ancient && c.Id != card.Id)
+                    .ToList();
+
+                if (ancientOptions.Count == 0)
+                    continue;
+
+                var picked = rng.NextItem(ancientOptions);
+                replacement = card.CardScope.CreateCard(picked, card.Owner);
+            }
+            else
+            {
+                replacement = CardFactory.CreateRandomCardForTransform(card, false, rng);
+            }
+
             transformations.Add(new CardTransformation(card, replacement));
             logger.Info($"Transformed '{card.Title}' -> '{replacement.Title}'");
         }
@@ -52,13 +77,14 @@ public static class Transformer
         CardCmd.Transform(transformations, rng, CardPreviewStyle.None)
             .GetAwaiter().GetResult();
 
-        // After transform, upgrade the first N cards in the deck to preserve
+        // After transform, upgrade a random selection of N cards to preserve
         // the number of upgraded cards the player had before.
         if (upgradedCount > 0)
         {
             var deckCards = ((IEnumerable<CardModel>)PileTypeExtensions.GetPile(
                 PileType.Deck, player).Cards)
                 .Where(c => !c.IsUpgraded && TargetRarities.Contains(c.Rarity))
+                .OrderBy(_ => Random.Shared.Next())
                 .Take(upgradedCount)
                 .ToList();
 
