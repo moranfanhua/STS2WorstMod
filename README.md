@@ -14,6 +14,19 @@ Fixed an issue that enabled players to avoid playing the original version.
 ~~Usage: Add to the mod pack to penalize those who don't read the instructions.~~
 
 ---
+
+## EasyWin 假如我直接赢
+
+修复了胜利过于困难的问题，现在你可以直接赢.
+
+Fixed the problem where winning required actual effort. Now you ez win.
+
+~~使用方法：安装此mod，然后向朋友展示你的连胜~~
+
+~~Usage: Install this mod, then show your friends your win streak.~~
+
+---
+
 ## FortuneIsAllYouNeed 全随机尖塔
 
 修复了玩家可能可以玩到爽局的问题。
