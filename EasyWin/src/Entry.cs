@@ -14,8 +14,9 @@ public class Entry
 
     public static void Init()
     {
-        Log.Info("[EasyWin] Initializing, subscribing to RoomEnteredEvent...");
+        Log.Info("[EasyWin] Initializing, subscribing to RoomEnteredEvent and RunEndedEvent...");
         _ = RitsuLibFramework.SubscribeLifecycle<RoomEnteredEvent>(OnRoomEntered);
+        _ = RitsuLibFramework.SubscribeLifecycle<RunEndedEvent>(_ => _done = false);
     }
 
     private static void OnRoomEntered(RoomEnteredEvent evt)

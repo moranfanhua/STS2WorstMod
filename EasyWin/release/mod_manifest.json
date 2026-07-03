@@ -3,7 +3,7 @@
   "name": "EasyWin 假如我直接赢",
   "author": "moranfanhua",
   "description": "修复了胜利过于困难的问题，现在你可以直接赢. Fixed the problem where winning required actual effort. Now you ez win.",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "has_pck": false,
   "has_dll": true,
   "min_game_version": "0.105.0",
