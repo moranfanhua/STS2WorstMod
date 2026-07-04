@@ -1,0 +1,14 @@
+{
+  "id": "ReZeroSpire",
+  "name": "ReZeroSpire",
+  "author": "moranfanhua",
+  "description": "我能在cos 486的情况下通关杀戮尖塔吗？ Gain the power of Return by Death and play STS2 like Subaru Natsuki.",
+  "version": "1.0.0",
+  "has_pck": true,
+  "has_dll": true,
+  "affects_gameplay": true,
+  "min_game_version": "0.105.0",
+  "dependencies": [
+    { "id": "STS2-RitsuLib" }
+  ]
+}
