@@ -13,6 +13,22 @@ Fixed an issue that enabled players to avoid playing the original version.
 
 ~~Usage: Add to the mod pack to penalize those who don't read the instructions.~~
 
+[github](https://github.com/moranfanhua/AntiAnyMod)
+
+---
+
+## AntiFriendCard 多人友尽卡
+
+修复了打完杀戮尖塔2不能和朋友打自由搏击的问题
+
+Fixed an issue where you couldn't play free‑for‑all with friends after finishing Slay the Spire 2.
+
+~~使用方法：牺牲你的朋友，并对他说“这就是家庭，一点利他的牺牲不算什么”~~
+
+~~Usage: Sacrifice your friend and say to him, "This is family—a little altruistic sacrifice is nothing."~~
+
+[github](https://github.com/moranfanhua/AntiFriendCard)
+
 ---
 
 ## EasyWin 假如我直接赢
@@ -24,6 +40,8 @@ Fixed the problem where winning required actual effort. Now you ez win.
 ~~使用方法：安装此mod，然后向朋友展示你的连胜~~
 
 ~~Usage: Install this mod, then show your friends your win streak.~~
+
+[github](https://github.com/moranfanhua/EasyWin)
 
 ---
 
@@ -41,6 +59,8 @@ Effect: Your hand is automatically transformed after every battle you win.
 
 ~~Usage: Start a multiplayer game with a friend to test each other's luck.~~
 
+[github](https://github.com/moranfanhua/FortuneIsAllYouNeed )
+
 ---
 ## NoMoreIrrationalPi 加载Pi系就闪退
 修复了无理数Pi的mod可能不出问题的问题。
@@ -50,6 +70,8 @@ Fixed the issue where the Irrational mod by Pi might not malfunction.
 ~~使用方法：添加作为mod前置,惩罚让你兼容PiMod的人~~
 
 ~~Usage: Add this as a mod dependency – it'll penalize anyone who pressures you to support PiMod.~~
+
+[github](https://github.com/moranfanhua/NoMoreIrrationalPi )
 
 ---
 
@@ -76,6 +98,8 @@ Optional features:
 
 ~Usage: Swear to God, Buddha, and Lord Od Lagna that you will never, in this life, forget all that you have loved.~
 
+[github](https://github.com/moranfanhua/ReZeroSpire )
+
 ---
 ## RitsulibBaselibCrash 加载Ritsulib和Baselib就闪退
 
@@ -86,3 +110,5 @@ Fixed an issue where Ritsulib and Baselib were incorrectly assumed to have no co
 ~~使用方法：添加作为mod前置,惩罚要求你兼容其他前置mod的人~~
 
 ~~Usage: Add as a mod dependency to penalize those who demand that you make it compatible with other dependency mods.~~
+
+[github](https://github.com/moranfanhua/RitsulibBaselibCrash )
