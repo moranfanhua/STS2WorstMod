@@ -23,6 +23,10 @@ Fixed an issue that enabled players to avoid playing the original version.
 
 Fixed an issue where you couldn't play free‑for‑all with friends after finishing Slay the Spire 2.
 
+效果介绍：添加了一些基于牺牲朋友游戏体验提升自己游戏体验的设计思路的多人卡牌，以便于大家*和谐友爱地*游玩杀戮尖塔。
+
+Effect: Added some multiplayer cards designed around the idea of sacrificing your friends' gameplay experience to enhance your own, so that everyone can enjoy playing Slay the Spire2 *in harmony and friendship*.
+
 ~~使用方法：牺牲你的朋友，并对他说“这就是家庭，一点利他的牺牲不算什么”~~
 
 ~~Usage: Sacrifice your friend and say to him, "This is family—a little altruistic sacrifice is nothing."~~
@@ -87,12 +91,34 @@ Effect: This mod grants you the power to return from death. Upon dying, you will
 可选项：
 - 被建筑师杀死也回溯
 - 死亡时听到魔女的呼唤
-- boss战播放bgm
+- boss战播放bgm (1.STYX HELIX; 2.Realize; 3.Long Shot; 4.Ender Ember)
+- 在每场战斗胜利后有x概率受到诅咒，效果包括：
+   - 扣 3 点血
+  - 扣 1 血上限
+  - 随机删除一张非诅咒牌
+  - 向牌组置入 2 张笨拙（1 场战斗后移除）
+  - 向牌组置入 1 张笨拙
+  - 随机变化一张牌（潘多拉魔盒逻辑，保留升级状态）
+  - 随机降级一张已升级的牌
+  - 扣除 20 金币
+
+x 可在 0-100% 中调节（默认 15%）
 
 Optional features:
 - Death at the hands of the Architect also causes a rewind.
 - You hear Satella's call when you die.
-- Boss fights play their own background music.
+- Boss fights play their own background music. (1.STYX HELIX; 2.Realize; 3.Long Shot; 4.Ender Ember)
+- After each combat victory, there is an x% chance to trigger one of the following random effects:
+  - Lose 3 HP
+  - Lose 1 Max HP
+  - Remove a random non-Curse card
+  - Add 2 Clumsy to deck (removed after 1 combat)
+  - Add 1 Clumsy to deck
+  - Transform a random card (Pandora's Box logic, preserves upgrade)
+  - Downgrade a random upgraded card
+  - Lose 20 Gold
+
+x is adjustable from 0-100% (default 15%)
 
 ~使用方法：向神、佛和欧德·拉格纳大人发誓此生绝不遗忘所爱过的一切~
 
